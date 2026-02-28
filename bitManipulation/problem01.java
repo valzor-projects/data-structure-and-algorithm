@@ -19,7 +19,7 @@ public class problem01 {
 
     static void checkBit(int number, int position) {
         if (((number) & (1 << position)) == 0) {
-            System.out.println("The bit is Unset");
+            System.out.println("The Bit is Unset");
         } else {
             System.out.print("The Bit is Set");
         }
